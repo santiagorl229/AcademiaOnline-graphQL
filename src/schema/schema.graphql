@@ -18,7 +18,7 @@ type Mutation{
     eliminarCurso(id: ID!): Course!
 }
 input CursoInput{
-    id: ID!
+    id: ID
     title: String!
     description: String!
     clases: Int!
